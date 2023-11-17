@@ -1,0 +1,10 @@
+@a=http://192.168.3.216:8000/paciente/login
+
+
+POST {{a}}
+Content-type: application/json
+
+{
+    "nombre":"sam",
+    "contrasena":"rodri"
+}
